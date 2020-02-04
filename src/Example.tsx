@@ -14,8 +14,7 @@ export default function Thing() {
       />
 
       <Button
-        // title="Print Username"
-        title="Purnt yousername"
+        title="Print Username"
         onPress={() => {
           setTimeout(() => {
             setShow(!show);
