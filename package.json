@@ -3,6 +3,7 @@
   "scripts": {
     "start": "expo start",
     "test": "./node_modules/jest/bin/jest.js --coverage",
+    "test:ci": "./node_modules/jest/bin/jest.js --coverage --updateSnapshot",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
