@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`examples of some things 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#444",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+          }
+        }
+        testID="input"
+        underlineColorAndroid="transparent"
+        value="Ada Lovelace"
+      />
+      <Button
+        title="Print Username"
+      />
+      <Text
+        testID="printed-username"
+      >
+        Ada Lovelace
+      </Text>
+    </View>
+  </View>
+</View>
+`;
