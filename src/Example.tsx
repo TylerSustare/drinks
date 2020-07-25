@@ -1,5 +1,6 @@
 import React from 'react';
-import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Button,StyleSheet, Text, TextInput, View } from 'react-native';
+// import { Button } from 'react-native-elements';
 import { withFirebaseHOC } from '../config/Firebase';
 
 interface IExampleProps {
