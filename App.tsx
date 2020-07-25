@@ -1,6 +1,23 @@
-import React from "react";
-import Thing from "./src/Example";
+import React from 'react';
+import Thing from './src/Example';
+import Firebase, { FirebaseProvider } from './config/Firebase';
+import { StyleSheet, SafeAreaView } from 'react-native';
+import { ThemeProvider } from 'react-native-elements';
 
-const App = () => <Thing />;
+export default () => {
+  return (
+    <FirebaseProvider value={Firebase}>
+      <ThemeProvider>
+        <SafeAreaView style={styles.container}>
+          <Thing />
+        </SafeAreaView>
+      </ThemeProvider>
+    </FirebaseProvider>
+  );
+};
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1
+  }
+});
